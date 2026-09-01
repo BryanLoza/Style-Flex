@@ -8,9 +8,39 @@ header{
     display: flex; /*Activa FlexBox dentro del header*/
     justify-content: space-between;
     align-items: center;
+    padding-left: 10px;
+    padding-right: 45px; /*Distancia entre "Contactanos" del borde*/
+    gap: 5px; /*Distancia entre el menu de hamburguesa y el logo*/
+}
+
+/*Esto es el div del logo y el menu, con esto hago que el menu y el logo esten alineados*/
+.header_left{
+    display: flex;
+    align-items: center;
+}
+
+.hamburguer_btn{ /*Son el diseño que tendra el boton invisible donde estan las tres rayitas, practicamente le quitamos la decoracion por defecto*/
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px;
+}
+
+.hamburguer_btn span{
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    border-radius: 2px;
 }
 
 .black_logo{
-    height: 70px;
+    height: 90px;
     width: auto;
+}
+
+a{
+    text-decoration: none;
 }
