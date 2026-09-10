@@ -1,34 +1,39 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-header{
-    display: flex; /*Activa FlexBox dentro del header*/
+header {
+    display: flex;
+    /*Activa FlexBox dentro del header*/
     justify-content: space-between;
     align-items: center;
-    padding-right: 2%;
+    padding: 2%;
 }
 
 /*Esto es el div del logo y el menu, con esto hago que el menu y el logo esten alineados*/
-.header_left{
+.header_left {
     display: flex;
     align-items: center;
 }
 
-.header_right{
+.header_left img {
+    width: 150px;
+}
+
+.header_right {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 40%;
 }
 
-.black_logo{
+.black_logo {
     height: 90px;
     width: auto;
 }
 
-a{
+a {
     text-decoration: none;
 }
