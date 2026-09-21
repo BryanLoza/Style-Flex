@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Quicksand, sans-serif;
+}
+
+
+header {
+    display: flex;
+    /*Activa FlexBox dentro del header*/
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+}
+
+/*Esto es el div del logo y el menu, con esto hago que el menu y el logo esten alineados*/
+
+header {
+    padding: 0px 80px 0px 80px;
+}
+
+.header_left {
+    display: flex;
+    align-items: center;
+}
+
+.header_left .logo_svg {
+    width: 200px;
+    height: auto;
+    display: block;
+}
+
+.header_right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+.black_logo {
+    height: 90px;
+    width: auto;
+}
+
+main {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: justify;
+    padding: 0px 80px 0px 80px;
+}
+
+#banner {
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    height: 40%;
+    padding: 80px;
+}
+
+#banner h1 {
+    font-size: 80px;
+}
+
+#content {
+    height: 60%;
+    font-size: 1.18rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+#landing_page {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: justify;
+    gap: 30px;
+}
+
+#landing_page img {
+    width: 300px;
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    background-color: rgb(90, 161, 153);
+    padding: 40px 80px 40px 80px;
+}
