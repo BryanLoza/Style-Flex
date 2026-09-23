@@ -119,7 +119,7 @@ main {
     height: 500px; 
 }
 
-.paquete_1 {
+.paquetes div{
     border: 1px solid rgb(5, 5, 5);
     border-radius: 20px;
     padding: 20px;
@@ -127,29 +127,7 @@ main {
     flex: 1; 
 }
 
-.paquete_2 {
-    border: 1px solid rgb(5, 5, 5);
-    border-radius: 20px;
-    padding: 20px;
-    background-color: #4A6B82; 
-    flex: 1; 
-}
 
-.paquete_3 {
-    border: 1px solid rgb(5, 5, 5);
-    border-radius: 20px;
-    padding: 20px;
-    background-color: #4A6B82;
-    flex: 1;
-}
-
-.paquete_4 {
-    border: 1px solid rgb(5, 5, 5);
-    border-radius: 20px;
-    padding: 20px;
-    background-color: #4A6B82;
-    flex: 1;
-}
 /*este es el boton de cotizar */
 .cotizar {
     background-color: #E2B512; /*es la paleta de colores que esta en el grupo */;
