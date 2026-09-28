@@ -11,6 +11,7 @@
 
 body {
     font-family: var(--textos);
+    background: linear-gradient(#ffff, rgb(90, 161, 153) 90%);
 }
 
 h1 {
@@ -133,16 +134,18 @@ main {
 
 .asset_container{
     width: 50%;
-    background-color: rgb(201, 240, 236);
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 #Ventajas{
-    margin-left: 5%;
-    margin-right: 5%;
+    padding: 5%;
+    height: 109vh;
     line-height: 1.8;
+    background-color: rgb(201, 240, 236);
+    border-radius: 20px;
+    margin-bottom: 5%;
 }
 
 #Ventajas h1{
@@ -151,8 +154,25 @@ main {
 }
 
 .ventaja p{
+    font-size: 16px;
     font-weight: 400;
     padding-bottom: 10px;
+}
+
+.ventajas{
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.ventajas_fila{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 6%;
+}
+
+.ventaja{
+    width: 30%;
 }
 
 #landing_page img {
@@ -166,8 +186,7 @@ main {
 }
 
 #Paquetes{
-    margin-left: 5%;
-    margin-right: 5%;
+    margin: 0% 5% 3% 5%;
 }
 
 #Paquetes h1 {
@@ -227,6 +246,16 @@ main {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 40px
+}
+
+#contenedor_foot{
+    display: flex;
+}
+
+.Sobre_Nosotros{
+    width: 50%;
+    text-align:justify;
+    padding-right: 5%;
 }
 
 footer {
