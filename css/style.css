@@ -19,11 +19,11 @@ h1 {
     font-weight: lighter;
 }
 
-#banner h3{
+#banner h3 {
     margin-bottom: 5%;
 }
 
-#banner a{
+#banner a {
     background-color: #E2B512;
     padding: 10px 20px;
     border-radius: 5px;
@@ -110,16 +110,17 @@ main {
     flex-direction: row;
     justify-content: space-between;
     text-align: justify;
-    margin-top: 5%; /*Separacion entre el boton de cotizar y la siguiente sección*/
+    margin-top: 5%;
+    /*Separacion entre el boton de cotizar y la siguiente sección*/
 }
 
-.landing_info{
+.landing_info {
     line-height: 1.8;
     font-weight: 500;
     margin: 2% 5% 0% 10%;
 }
 
-.text_container{
+.text_container {
     width: 50%;
     padding-right: 2%;
     display: flex;
@@ -128,49 +129,49 @@ main {
     padding-bottom: 5%;
 }
 
-.text_container h1{
+.text_container h1 {
     margin-left: 10%;
 }
 
-.asset_container{
+.asset_container {
     width: 50%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-#pasos{
+#pasos {
     display: flex;
     margin-bottom: 5%;
     align-items: center;
 }
 
-#portafolio{
+#portafolio {
     background-color: chocolate;
     height: 80vh;
     width: 100%;
     margin-right: 5%;
 }
 
-#proceso{
+#proceso {
     height: 90vh;
     width: 100%;
     display: flex;
     flex-direction: column;
-    justify-content:space-around;
+    justify-content: space-around;
 }
 
-.paso{
+.paso {
     height: 20vh;
     width: 80%;
     border-radius: 7px;
-    background-color:#75c5fa59;
+    background-color: #75c5fa59;
     margin-left: 10%;
     display: flex;
-    align-items: center;
+    align-items: top;
 }
 
-.num{
+.num {
     background-color: #75caf1;
     height: 45px;
     width: 45px;
@@ -178,10 +179,11 @@ main {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 2%;
+    margin: -10px;
+    position: absolute;
 }
 
-#Ventajas{
+#Ventajas {
     padding: 5%;
     height: 118vh;
     line-height: 1.8;
@@ -190,30 +192,30 @@ main {
     margin: 0% 1% 5% 1%;
 }
 
-#Ventajas h1{
+#Ventajas h1 {
     padding-bottom: 20px;
     padding-top: 25px;
 }
 
-.ventaja p{
+.ventaja p {
     font-size: 16px;
     font-weight: 400;
     padding-bottom: 10px;
 }
 
-.ventajas{
+.ventajas {
     margin-top: 2%;
     display: flex;
     justify-content: space-between;
 }
 
-.ventajas_fila{
+.ventajas_fila {
     display: flex;
     justify-content: space-between;
     margin-top: 6%;
 }
 
-.ventaja{
+.ventaja {
     width: 30%;
 }
 
@@ -223,11 +225,11 @@ main {
     border-radius: 10px;
 }
 
-#info_uno{
+#info_uno {
     margin-top: 10%;
 }
 
-#Paquetes{
+#Paquetes {
     margin: 0% 5% 3% 5%;
 }
 
@@ -239,37 +241,37 @@ main {
 /*este primer paquete es el div principal y adentro de van los otros 4 paquetes*/
 .paquetes {
     padding: 20px;
-    display: flex; 
+    display: flex;
     gap: 15px;
-    height: 500px; 
+    height: 500px;
 }
 
-.paquetes div{
+.paquetes div {
     border-radius: 20px;
     padding: 20px;
     background-color: rgb(220, 253, 250);
-    flex: 1; 
+    flex: 1;
     transition: ease-in .1s;
     text-align: justify;
     line-height: 2;
 }
 
-.subPrincipal{
+.subPrincipal {
     list-style-type: none;
     font-weight: 600;
 }
 
-.subinfo{
+.subinfo {
     font-size: medium;
     margin-left: 30px;
 }
 
-.tituloDiv{
+.tituloDiv {
     margin-bottom: 11%;
     text-align: center;
 }
 
-.paquetes div:hover{
+.paquetes div:hover {
     transform: scale(1.02);
     transition: ease-in .1s;
     background-color: rgb(197, 236, 231);
@@ -277,7 +279,9 @@ main {
 
 /*este es el boton de cotizar */
 .cotizar {
-    background-color: #E2B512; /*es la paleta de colores que esta en el grupo */;
+    background-color: #E2B512;
+    /*es la paleta de colores que esta en el grupo */
+    ;
     padding: 15px 25px;
     border-radius: 6px;
     cursor: pointer;
@@ -291,18 +295,18 @@ main {
     margin-bottom: 40px
 }
 
-.cotizar:hover{
+.cotizar:hover {
     transform: scale(1.02);
     background-color: #e4c200;
 }
 
-#contenedor_foot{
+#contenedor_foot {
     display: flex;
 }
 
-.Sobre_Nosotros{
+.Sobre_Nosotros {
     width: 50%;
-    text-align:justify;
+    text-align: justify;
     padding-right: 5%;
 }
 
