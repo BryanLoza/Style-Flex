@@ -139,6 +139,48 @@ main {
     justify-content: center;
 }
 
+#pasos{
+    display: flex;
+    margin-bottom: 5%;
+    align-items: center;
+}
+
+#portafolio{
+    background-color: chocolate;
+    height: 80vh;
+    width: 100%;
+    margin-right: 5%;
+}
+
+#proceso{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+}
+
+.paso{
+    height: 20vh;
+    width: 80%;
+    border-radius: 7px;
+    background-color:#75c5fa59;
+    margin-left: 10%;
+    display: flex;
+    align-items: center;
+}
+
+.num{
+    background-color: #75caf1;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2%;
+}
+
 #Ventajas{
     padding: 5%;
     height: 118vh;
