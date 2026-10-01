@@ -11,7 +11,7 @@
 
 body {
     font-family: var(--textos);
-    background: linear-gradient(to bottom, #ffff 0%, #caf4ff 78%, rgb(90, 161, 153) 90%);
+    background: linear-gradient(to bottom, #ffff 20%, #289094 80%, rgb(8, 46, 41) 90%);
 }
 
 h1 {
@@ -40,6 +40,14 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 2%;
+    background-color: #ffffffee;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    height: 130px;
 }
 
 /*Esto es el div del logo y el menu, con esto hago que el menu y el logo esten alineados*/
@@ -91,6 +99,7 @@ main {
     text-align: center;
     height: 40%;
     padding: 80px;
+    margin-top: 13%;
 }
 
 #banner h1 {
@@ -165,7 +174,7 @@ main {
     height: 20vh;
     width: 80%;
     border-radius: 7px;
-    background-color: #75c5fa59;
+    background-color: #ebf4f7c0;
     margin-left: 10%;
     display: flex;
     align-items: top;
@@ -187,7 +196,7 @@ main {
     padding: 5%;
     height: 118vh;
     line-height: 1.8;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(231, 248, 255);
     border-radius: 20px;
     margin: 0% 1% 5% 1%;
 }
@@ -249,7 +258,7 @@ main {
 .paquetes div {
     border-radius: 20px;
     padding: 20px;
-    background-color: rgb(220, 253, 250);
+    background-color: rgb(190, 236, 233);
     flex: 1;
     transition: ease-in .1s;
     text-align: justify;
@@ -281,7 +290,6 @@ main {
 .cotizar {
     background-color: #E2B512;
     /*es la paleta de colores que esta en el grupo */
-    ;
     padding: 15px 25px;
     border-radius: 6px;
     cursor: pointer;
@@ -293,6 +301,11 @@ main {
     margin-right: auto;
     margin-top: 5%;
     margin-bottom: 40px
+}
+
+.cotizar a{
+    text-decoration: none;
+    color: black;
 }
 
 .cotizar:hover {
@@ -311,7 +324,8 @@ main {
 }
 
 footer {
+    color: #ffff;
     display: flex;
-    background-color: rgb(90, 161, 153);
+    background-color: rgb(8, 46, 41);
     padding: 40px 80px 40px 80px;
 }
